@@ -1,0 +1,296 @@
+/* Reset some default browser styles */
+:root {
+    --light-black: rgb(32, 31, 35);
+}
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+body, h1, h2, ul, li, p {
+    font-family: 'https://fonts.google.com/specimen/Source+Sans+Pro';
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+p {
+    margin: 4px 0px; 
+}
+
+li {
+    list-style: none;
+    margin: 5px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.welcome {
+    width: 100%;
+    height: 100vh; /* Czemu to nie działa?? */
+}
+
+.block {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.my-logo {
+    margin: auto;
+    width: 20%;
+}
+
+/* Apply a background color and set text color */
+body {
+    background-image: url("https://lh4.googleusercontent.com/7H8JLq2sCmeGx2ug6AkBCELVJkVApEYOjxO1cTr7p45oUXONmQ7jCTaJ9S2b8KpjWk5UiOucHbYceLL4l0X4QdY=w16383");
+    background-image: url("../images/bg1.png");    background-position: right center;
+    background-size: cover;
+}
+
+/* Style the navigation menu */
+header {
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    text-align: right;
+    padding: 10px;
+}
+
+.navbar-scrolled {
+    background-color: var(--light-black);
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: #cfcdcd;
+}
+
+.menu-toggle {
+    display: none;
+    position: sticky;
+    border-radius: 50%;
+    top: 0;
+    margin: 0 0 0 auto;
+    font-size: larger;
+    color: white;
+    background-color: var(--light-black);
+    border: 0;
+}
+
+.nav-mobile {
+    display: block;
+    
+}
+
+/* czemu kolor nie wszędzie działa */
+form {
+    margin: 0 auto;
+    background-color: rgb(251, 238, 196);
+    padding: 20px;
+}
+
+input, select{
+    height: 25px;
+    margin: 4px 0px 15px;
+    padding: 5px 0 5px 5px;
+    display: block;
+    border: none;
+    width: calc(100% - 5px);
+    background: #cfcdcd;
+    font: black;
+}
+
+#service-type {
+    width: 100%;
+}
+
+select {
+    height: 35px;
+}
+
+/* Style sections */
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+hr {
+    margin: 0;
+    background-color: rgb(70, 70, 70);
+    height: 1px;
+}
+
+/* Style the footer */
+footer {
+    margin: 0px auto;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2vh;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .text-container {
+    flex: 15%;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black !important;
+}
+
+.golden {
+    color: rgba(198,157,91,1);
+}
+
+.pink {
+    color: rgb(194, 99, 81);
+}
+
+.no-bg {
+    background-image: none;
+}
+
+.text-container {
+    padding: 20px;
+    margin: 20px;
+    border: var(--light-black);
+    background-color: var(--light-black);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.img-sec:nth-child(odd) {
+    background-image: url("https://lh5.googleusercontent.com/VtPLpQnOE9xfIdYgxf6soWQbtO06dsO1axz1WbfDKUloakXVqSUSGMkFrLPaXSI2zqtftH0czDxh4qJmu5z6qQ4=w16383");
+    background-image: url("../images/bg2.png");
+    background-size: cover;
+    background-position: center;
+}
+.img-sec:nth-child(even) {
+    background-image: url("https://lh4.googleusercontent.com/7H8JLq2sCmeGx2ug6AkBCELVJkVApEYOjxO1cTr7p45oUXONmQ7jCTaJ9S2b8KpjWk5UiOucHbYceLL4l0X4QdY=w16383");
+    background-image: url("../images/bg1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.sec-title {
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 5vh;
+    color: rgba(198,157,91,1);
+}
+
+.why-me {
+    display: flex;
+}
+
+.service-container {
+    text-align: center;
+    flex: 50%;
+}
+
+.service-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+
+.service-list li {
+    list-style: none;
+    margin-left: 15px;
+}
+
+.form-container {
+    margin: 15px 0;
+    font-size: 120%;
+}
+
+.form-button {
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(75, 255, 47);
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+}
+
+.form-button:hover {
+    background-color: rgb(42, 233, 49);
+}
+
+.bottom-sec {
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+.contact-photo {
+    margin:0px;
+    width: 13px;
+    height: 13px;
+}
+
+.contact-li {
+    font-size: 16px;
+}
+
+@media (max-width: 767px) { 
+    #navbar {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    #navbar.open {
+        display: block;
+    }
+
+    header {
+        margin-left: 70%;
+        height: 100vh;
+    }
+
+    nav ul li {
+        margin: 15px 5px 5px 0;
+        display: block;
+        text-align: end;
+    }
+
+    .welcome {
+        margin-top: -100vh;
+    }
+
+    form {
+        margin: 10px 25px;
+    }
+}

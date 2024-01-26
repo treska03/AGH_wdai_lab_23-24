@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Umiesz to!</title>
+    <link rel="icon" type="image/x-icon" href="images/openbook.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/main.js"></script>
+</head>
+<body id="home">
+    <header id="header">
+        <button class="menu-toggle" aria-label="Menu">☰</button>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#why-me">Dlaczego ja</a></li>
+                <li><a href="#services">Usługi</a></li>
+                <li><a href="#form">Formularz</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="welcome">
+        <div class="block">
+            <img class="my-logo" src="images/mylogo.png" alt="This is my logo">
+        </div>
+    </div>
+    <main>
+        <div class="img-sec">
+
+            <section id="why-me">
+                <h1 class="sec-title">Dlaczego ja</h1>
+                <div class="container why-me white">
+                    <div class="text-container">
+                        Zajęcia dostosowane do potrzeby ucznia oraz jego poziomu
+                    </div>
+                    <div class="text-container">
+                        Możliwość wybrania dogodnego terminu
+                    </div>
+                    <div class="text-container">
+                        W razie pytań i problemów chętnie pomogę, wystarczy pisać
+                    </div>
+                    <div class="text-container">
+                        Jako obecny student rozumiem problemy w nauce uczniów
+                    </div>
+                    <div class="text-container">
+                        Nauczanie traktuję nie tylko jako pracę, lecz przede wszystkim pasję
+                    </div>
+                    <div class="text-container">
+                        Korzystamy z materiałów powszechnie dostępnych dla ucznia
+                    </div>
+                    <div class="text-container">
+                        Zajęcia prowadzone w obu formach - zarówno online, jak i stacjonarnie
+                    </div>
+                    <div class="text-container">
+                        Możliwość uczestniczenia w zajęciach grupowych
+                    </div>
+                </div>
+            </section>
+            <hr>
+        </div>
+        <div class="img-sec">
+
+            <section id="services" class="sec-even">
+                <h1 class="sec-title">Korepetycje</h1>
+                <div class="container white">
+                    <div class="service-container">
+                        <li><h3>MATEMATYKA</h3></li>
+                        <img class="service-img" src="images/maths.png" alt="Matematyka">
+                        <ul class="service-list">
+                            <li>Matematyka szkoła średnia 80zł/h</li>
+                            <li>Matematyka szkoła podstawowa 80zł/h</li>
+                            <li>Przygotowania do egzaminu ósmoklasisty 80zł/h</li>
+                            <li>Przygotowania do matury podstawowej 80zł/h</li>
+                            <li>Przygotowania do matury rozszerzonej 80zł/h</li>
+                        </ul>
+                    </div>
+                    <div class="service-container">
+                        <li><h3>INFORMATYKA</h3></li>
+                        <img class="service-img" src="images/computer-science.png" alt="Informatyka">
+                        <ul class="service-list">
+                            <li>Informatyka szkoła podstawowa 80zł/h</li>
+                            <li>Informatyka szkoła średnia 80zł/h</li>
+                            <li>Przygotowania do matury rozszerzonej 80zł/h</li>
+                            <li>Programowanie w pythonie 100zł/h</li>
+                            <li>Programowanie w scratchu 100zł/h</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <hr>
+        </div>
+        <div class="img-sec">
+            
+            <section class="sec-odd">
+                <form id="form" action="/action_page.php">
+                    <h1 class="sec-title black">Zamów korepetycje</h1>
+                    <p>Proszę wypełnić formularz by zamówić korepetycje.</p>
+                    <hr class="no-margin">
+                    <div class="form-container">
+                        <label for="name"><b>Imie</b></label>
+                        <input type="text" placeholder="Imie" name="name" id="name" required>
+                        
+                        <label for="surname"><b>Nazwisko</b></label>
+                        <input type="text" placeholder="Nazwisko" name="surname" id="surname" required>
+                        
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Email" name="email" id="email" required>
+                        
+                        <label for="phone"><b>Telefon kontaktowy</b></label>
+                        <input type="text" pattern="[789][0-9]{8}" placeholder="Numer telefonu" name="phone" id="phone" required>
+                        
+                        <label for="appointment"><b>Wybierz termin</b></label>
+                        <input type="text" placeholder="Termin w formie dzień.miesiąc.rok (dd.mm.rrrr)" name="appointment" id="appointment" required>
+                        
+                        <label for="service-type"><b>Wybierz usługę</b></label><br>
+                        <select id="service-type" name="service-type" default="Not selected">
+                            <option class="select-default" value="" selected disabled hidden>Nie wybrano</option>
+                            <option value="6">Matematyka szkoła średnia 80zł/h</option>
+                            <option value="7">Matematyka szkoła podstawowa 80zł/h</option>
+                            <option value="8">Przygotowania do egzaminu ósmoklasisty 80zł/h</option>
+                            <option value="9">Przygotowania do matury podstawowej 80zł/h</option>
+                            <option value="10">Przygotowania do matury rozszerzonej 80zł/h</option>
+                            <option value="1">Informatyka szkoła podstawowa 80zł/h</option>
+                            <option value="2">Informatyka szkoła średnia 80zł/h</option>
+                            <option value="3">Przygotowania do matury rozszerzonej 80zł/h</option>
+                            <option value="4">Programowanie w pythonie 100zł/h</option>
+                            <option value="5">Programowanie w scratchu 100zł/h</option>
+                        </select>
+                </div>
+                <hr class="no-margin">
+                
+                <button type="submit" class="form-button"><b>Wyślij zgłoszenie</b></button>
+                <br><br>
+                </form>
+                
+                
+            </section>
+            <hr>
+        </div>
+        <div class="img-sec">
+
+            <section id="contact" class="bottom-sec sec-even">
+                <h1 class="sec-title">Kontakt</h1>
+                <address class="white">
+                    <ul>
+                        <li class="contact-li golden">
+                            <img class="contact-photo" src="images/email.png" alt="Email image">
+                            <a class="golden" href="mailto:dziekanat-ele@iet.agh.edu.pl">
+                                E-mail: dziekanat-ele@iet.agh.edu.pl
+                            </a>
+                    </li>
+                    <li class="contact-li golden">
+                        <img class="contact-photo" src="images/phone.png" alt="Telephone image">
+                        Numer telefonu: +48 666 666 666
+                    </li>
+                    <li class="contact-li golden">
+                        <img class="contact-photo" src="images/address.png" alt="Adress image">
+                        Adres: Pawilon D-5, Kraków
+                    </li>
+                    
+                    </ul>
+                </address>
+                <footer>
+                    <p>&copy; 2023 Bartłomiej Treśka</p>
+                </footer>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.questionContainer{
+    margin-top: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.question {
+    padding: auto;
+    margin: auto;
+}
+
+.answer {
+    padding: 0;
+    margin: auto;
+}

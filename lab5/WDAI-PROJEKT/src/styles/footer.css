@@ -1,0 +1,33 @@
+footer {
+    justify-content: center;
+}
+
+.footer__header {
+    margin: 0 auto;
+    font-style: italic;
+}
+
+.footer__link {
+    display: inline-block;
+}
+
+.footer__linkTitle{
+    margin: 0;
+    font-style: italic;
+}
+
+.footer__list{
+    gap: 5px;
+    justify-content: center;
+}
+
+.footer__list > li {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__linkImg {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}

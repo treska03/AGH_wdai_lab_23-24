@@ -1,0 +1,31 @@
+.profileContainer {
+    text-align: center;
+}
+
+.loginContainer {
+    width: 40%;
+    border-style: solid;
+    border-radius: 5px;
+    margin: auto;
+    padding: 15px;
+    margin-top: 5%;
+}
+
+.loginForm {
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.inputField {
+    width: 90%;
+    font-size: large;
+    padding: 5px;
+    background-color: white;
+    color: black;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: xx-large;
+}

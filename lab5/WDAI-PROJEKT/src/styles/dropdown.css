@@ -1,0 +1,49 @@
+.dropdownContainer {
+    padding-top: 5px;
+    position: absolute;
+    transform: translateX(-125px);
+    background-color: whitesmoke;
+    color: black;
+    width: 300px;
+    margin-left: -50px;
+    height: fit-content;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    z-index: 100;
+}
+
+.dropdownItem {
+    width: 200px;
+    height: 75px;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+.confirmButton {
+    position:relative;
+    width: auto;
+    border-radius: 0;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.itemList {
+    align-items: center;
+    flex-direction: column;
+}
+.removeButton {
+    margin-left: auto;
+    margin-top: 20px;
+    width: 75px;
+    height: 35px;
+    color: crimson;
+    font-size: 0.75em;
+    background-color: whitesmoke;
+}

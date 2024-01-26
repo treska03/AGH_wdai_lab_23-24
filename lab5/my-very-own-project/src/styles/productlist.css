@@ -1,0 +1,10 @@
+
+section {
+    width: 30vw;
+    margin: auto;
+}
+
+.productListHolder {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,9 @@
+
+.centered {
+    margin: auto;
+}
+
+.contentContainer {
+    margin: 15px auto;
+    justify-content: center;
+}

@@ -1,0 +1,30 @@
+ul {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+.navLeft {
+    margin-left: 40px;
+    margin-right: auto;
+}
+
+.navRight{
+    margin-right: 40px;
+    margin-left: auto;
+}
+
+.navbar__link {
+    text-decoration: none;
+}
+
+
+.cartIcon {
+    width: 35px;
+}
+.logoIcon {
+    margin-top: -45px;
+    width: 120px;
+}

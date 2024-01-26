@@ -1,0 +1,121 @@
+.productList {
+    margin-top: 0;
+    width: 100%;
+}
+
+.flexLeft {
+    margin-left: 0;
+    width: 15%;
+    height: 100%;
+    background-color: blanchedalmond;
+    margin-bottom: 1%;
+    padding: 1% 2%;
+}
+
+.flexRight {
+    width: 79%;
+    margin: 0 0 0 auto;
+}
+
+.filters {
+    flex-direction: column;
+}
+
+.filterContainer {
+    background-color: white;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 1px;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.productList__item {
+    background-color: white;
+    height: 125px;
+    display: flex;
+    gap:5px;
+    overflow: hidden;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 1px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.buttonContainer {
+    width: 20%;
+    gap: 5px
+}
+
+.imageContainer {
+    width: 20%;
+    display: flex;
+}
+
+.productList__image {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+
+/* IS THIS CLASS EVER USED? */
+/* IS THIS CLASS EVER USED? */
+.productImage {
+    margin-top: 30%;
+    margin-bottom: 30%;
+    margin-right: 10px;
+    width: 180px;
+    height: auto;
+}
+
+
+.valuesContainer {
+    display: flex;
+    width: 85%;
+    flex-direction: column;
+}
+
+.title {
+    font: 2em sans-serif;
+    margin: 0 0 10px 0;
+    display: flex;
+    height: 30px;
+    font-weight: 600;
+}
+
+.desc {
+    margin: 0;
+    display: flex;
+}
+
+.price {
+    margin: auto 0 5px 0;
+    height: 40px;
+    font-size: 1.35em;
+}
+
+.cartButton {
+    height: 45%;
+    width: 100%;
+    overflow: hidden;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+.buyButton {
+    height: 45%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.managementButtonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
